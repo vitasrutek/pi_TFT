@@ -63,13 +63,6 @@ while True:
     else:
         II = II + 1
         print ('II je', II)
-    
-#    if PP == 3600:
-#        pocasi_update()
-#        PP = 0
-#    else:
-#        PP = PP + 1
-#        print ('PP je', PP)
 
     draw.rectangle((0,0,240,320), outline=0, fill=0)
     draw.line((WW, 45, WW, 115))
