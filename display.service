@@ -1,0 +1,13 @@
+[Unit]
+Description=TFT displej
+
+[Service]
+ExecStart=python3 /home//TFT/ZAPNOUT_TFT.py
+ExecStop=python3 /home//TFT/VYPNOUT_TFT.py
+
+[Service]
+Restart=on-failure
+RestartSec=30s
+
+[Install]
+WantedBy=multi-user.target
