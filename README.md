@@ -4,3 +4,4 @@ Simple script to display local weather today and tomorrow, DHT22 sensor and remo
 Display shows on start as service.
 
 Folder "tmpfs" is TMPFS, font in Ubuntu (looks good). GIF folder contains pictures for forecast. 
+Pocasi_update.sh is set in CRONTAB every hour.
